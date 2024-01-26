@@ -4,8 +4,10 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="/Clone-Spotify/reset.css">
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="../src/style/reset.css">
+    <link rel="stylesheet" href="../src/style/vars.css">
+    <link rel="stylesheet" href="../src/style/style.css">
+    <link rel="stylesheet" href="/src/style/main-content.css">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/solid.css"
         integrity="sha384-Tv5i09RULyHKMwX0E8wJUqSOaXlyu3SQxORObAI08iUwIalMmN5L6AvlPX2LMoSE" crossorigin="anonymous" />
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/fontawesome.css"
@@ -18,7 +20,7 @@
         <nav class="sidebar_navigation">
             <div class="logo">
                 <a href="">
-                    <img src="../Clone-Spotify/assets/icons/logo-spotify.png" alt="logo-spotify">
+                    <img src="/src/assets/icons/logo-spotify.png" alt="Logo Spotify">
                 </a>
             </div>
             <ul>
@@ -67,6 +69,32 @@
         </div>
 
     </div>
+    <main>
+        <div class="main-conatiner">
+            <nav class="header_navigation">
+                <div class="navigation">
+                    <button class="arrow-left">
+                        <img src="/src/assets/icons/small-left.png" alt="Seta Esquerda">
+                    </button>
+                    <button class="arrow-right">
+                        <img src="/src/assets/icons/small-right.png" alt="Seta Direita">
+                    </button>
+               
+              
+                    <div class="header-search">
+                        <img src="/src/assets/icons/search.png" alt="">
+                        <input id="search-input" type="text" maxlength="800" placeholder="O que você quer ouvir ?">
+
+                    </div>
+                </div>
+                    <div class="header_login">
+                        <button class="subscribe">Inscreva-se</button>
+                        <button class="login">Login</button>
+                    </div>
+            
+            </nav>
+        </div>
+    </main>
 </body>
 
 </html>
